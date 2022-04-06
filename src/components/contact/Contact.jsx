@@ -43,13 +43,13 @@ const Contact = () => {
                         <br/>
 
                         <label>Tu correo</label><br/>
-                        <input type="text" placeholder='correo@gmail.com' name='user_email'/>
+                        <input type="text" placeholder='ejemplo@gmail.com' name='user_email'/>
                         <br/>
 
                         <label>Tu mensaje</label><br/>
                         <textarea rows="5" placeholder='Mensaje' name='message'/>
                         <button className='c-button'>Enviar</button>
-                        {done && "Enviado"}
+                        {done && "Mensaje Enviado"}
                     </form>
                 </div>
             </div>

@@ -30,7 +30,15 @@ const Footer = () => {
         />
         Armenia-Quindío (Colombia)
     </div>
-</div></div>
+</div>
+<div className='a-award'>
+              <img src='' alt='' className='a-award-img' />
+              <div  className='a-award-texts'>
+                <h4 className='a-award-title'>Programate (los estilos estan en el about.css)</h4>
+                <p className='a-award-desc'>Estudiante.</p>
+              </div>
+          </div>
+</div>
   )
 }
 

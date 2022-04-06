@@ -5,7 +5,6 @@ import Photo from '../../assets/photo.jpg';
 const About = () => {
   return (
     <div className='a'>
-
         <div className='a-left'>
             <div className='a-card bg'>
 
@@ -15,7 +14,7 @@ const About = () => {
             </div>
         </div>
         <div className='a-right'>
-          <h1 className='a-title'>About Me</h1>
+          <h1 className='a-title'>Acerca de mi</h1>
           <p className='a-sub'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritt asperior</p>
 
           <p className='a-desc'>
@@ -26,13 +25,9 @@ const About = () => {
             cum repudiandae aut molestias?
             Corrupti id quod optio distinctio.
           </p>
-          <div className='a-award'>
-              <img src='' alt='' className='a-award-img' />
-              <div  className='a-award-texts'>
-                <h4 className='a-award-title'>Programate</h4>
-                <p className='a-award-desc'>Lorem ipsum dolor, assumenda fugiat.</p>
-              </div>
-          </div>
+
+          <button className='a-button'>Más acerca de mi  </button>
+        
         </div>
     </div>
   )

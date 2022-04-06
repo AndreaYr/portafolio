@@ -9,14 +9,23 @@
     align-items: center;
     justify-content: center;
 }
+
+.i-presentacion{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1px;
+    align-items: center;
+    justify-content: center;
+}
 .i-intro{
     font-size: 60px;
+    padding: none;
 }
 
 .i-profesion{
-    font-size: 60px;
-    color: blueviolet;
-    height: 10px;
+    font-size: 40px;
+    padding: none;
+
 }
 
 .i-title{
@@ -59,5 +68,15 @@
         transform: translateY(-200px);
     }
 
+}
+
+.i-button{
+    border: none;
+    padding: 15px;
+    background-color: rgb(127, 33, 250);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    
 }
 

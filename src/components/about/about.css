@@ -1,8 +1,12 @@
 .a{
     height: 100vh;
+    width: 80%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-color: rgb(152, 94, 206);
 }
+
 
 .a-left{
     flex: 1;
@@ -22,7 +26,7 @@
     position: absolute;
     top: 50px;
     left: 50px;
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
 }
 
 .a-card{
@@ -48,14 +52,17 @@
 
 .a-title{
     font-weight: 400;
+    color: white;
 }
 
 .a-sub{
     margin: 20px 0px;
+    color: white;
 }
 
 .a-desc{
-    font-weight: 300
+    font-weight: 300;
+    color: white;
 }
 .a-award{
     margin: top;
@@ -71,4 +78,17 @@
     font-weight: bold;
     color: darkgrey;
     margin-bottom: 10px;
+}
+
+.a-button{
+    border: none;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: 500;
+    cursor: pointer;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
 }
