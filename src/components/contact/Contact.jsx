@@ -1,10 +1,12 @@
 import React, { useRef } from 'react';
 import './contact.css';
 import emailjs from 'emailjs-com';
+import { useState } from 'react';
 
 const Contact = () => {
 
     const formRef = useRef();
+    const [done, setDone] = useState(false)
 
     const handleSubmit = (e) =>{
        e.preventDefault();
@@ -18,6 +20,7 @@ const Contact = () => {
 
        .then((result) => {
            console.log(result.text);
+           setDone(true)
        }, (error) => {
            console.log(error.text);
        });
@@ -40,13 +43,13 @@ const Contact = () => {
                         <br/>
 
                         <label>Tu correo</label><br/>
-                        <input type="text" placeholder='Correo' name='user_email'/>
+                        <input type="text" placeholder='correo@gmail.com' name='user_email'/>
                         <br/>
 
                         <label>Tu mensaje</label><br/>
                         <textarea rows="5" placeholder='Mensaje' name='message'/>
                         <button className='c-button'>Enviar</button>
-
+                        {done && "Enviado"}
                     </form>
                 </div>
             </div>
@@ -55,4 +58,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;
