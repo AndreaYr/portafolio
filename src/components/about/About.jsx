@@ -5,10 +5,9 @@ import Photo from '../../assets/photo.jpg';
 const About = () => {
   return (
     <div className='a'>
+      <div className='a-container'>
         <div className='a-left'>
-            <div className='a-card bg'>
-
-            </div>
+            <div className='a-card bg'></div>
             <div className='a-card'>
                 <img src={Photo} alt='' className='a-img'/>
             </div>
@@ -29,8 +28,9 @@ const About = () => {
           <button className='a-button'>Más acerca de mi  </button>
         
         </div>
+      </div>
     </div>
   )
 }
 
-export default About
+export default About;

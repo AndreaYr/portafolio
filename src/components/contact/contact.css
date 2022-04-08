@@ -10,13 +10,9 @@
     position: absolute;
 }
 
-.c-wrapper{
+.c-left{
     padding: 50px;
     width: 80%;
-    display: flex;
-}
-
-.c-left{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,11 +22,12 @@
 
 .c-title{
     font-size: 60px;
-    width: 80%;
+    top: 100px;
+    height: 20px;
+    line-height: 0;
 }
 .c-info-item{
    display: flex;
-   align-items: center;
    margin: 50px 0px;
    font-weight: 300;
    width: 70%;
@@ -44,29 +41,45 @@
 .p-desc{
     font-weight: 200;
 }
+.c-form{
+    background-color: rgb(125, 54, 238);
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+
+}
 form{
     width: 100%;
+    height: 60vh;
     margin-top: 20px;
+    border-radius: 30px;
     background-color: rgb(125, 54, 238);
+    align-items: center;
+    justify-content: center;
+   
 
 }
 input{
     width: 50%;
     height: 50px;
-    border-bottom: 1px solid black;
+    border: none;
+    border-radius: 5px;
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
 }
 
 textarea{
-    width: 100%;
+    width: 50%;
     margin: 10px 0px;
     font-size: 14px;
-    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 .c-button{
+    width: 50%;
     border: none;
     padding: 15px;
     background-color: white;
@@ -75,5 +88,17 @@ textarea{
     cursor: pointer;
     margin: 10px 0px;
     font-size: 14px;
+    border-radius: 5px;
     padding-left: 10px;
+}
+
+label{
+    color: white;
+  
+}
+
+@media screen and (max-width: 480px) {
+    .c-wrapper{
+        flex-direction: column;
+    }
 }

@@ -46,12 +46,20 @@
     height: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .i-title-wrapper{
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
+}
+
+.i-info{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes move { 
@@ -71,12 +79,31 @@
 }
 
 .i-button{
+    width: 200px;
     border: none;
     padding: 15px;
     background-color: rgb(127, 33, 250);
     color: white;
     font-weight: 500;
     cursor: pointer;
-    
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .i{
+        flex-direction: column;
+    }
+
+    .i-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .i-desc{
+        display: none;
+    }
 }
 
