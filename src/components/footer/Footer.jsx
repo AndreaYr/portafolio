@@ -6,6 +6,7 @@ const Footer = () => {
 
 
     <div className='f'>
+        <hr/>
         <div className='f-info'>
             <div className='f-info-item'>
                 <h5>Inicio</h5>
@@ -27,9 +28,9 @@ const Footer = () => {
                         className='c-icon'
                     />
             </div>
-            <hr/>
+            
         </div>
-       
+        <hr/>
     </div>
   )
 }

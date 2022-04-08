@@ -6,7 +6,7 @@
 .c-bg{
     width: 20px;
     height: 100%;
-    background-color: aqua;
+    background-color: rgb(153, 0, 255);
     position: absolute;
 }
 
