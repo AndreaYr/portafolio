@@ -6,17 +6,13 @@
 .c-bg{
     width: 20px;
     height: 100%;
-    background-color: aqua;
+    background-color: rgb(154, 33, 224);
     position: absolute;
 }
 
-.c-wrapper{
-    padding: 50px;
-    width: 80%;
-    display: flex;
-}
-
 .c-left{
+    padding: 50px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,6 +22,8 @@
 
 .c-title{
     font-size: 60px;
+    top: 100px;
+    height: 20px;
     width: 80%;
 }
 .c-info-item{
@@ -60,7 +58,7 @@ input{
 }
 
 textarea{
-    width: 100%;
+    width: 90%;
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
@@ -76,4 +74,14 @@ textarea{
     margin: 10px 0px;
     font-size: 14px;
     padding-left: 10px;
+}
+
+label{
+    color: white;
+}
+
+.c-form{
+    background-color: blueviolet;
+    width: 50%;
+    height: 100%;
 }
