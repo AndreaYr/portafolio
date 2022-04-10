@@ -12,7 +12,7 @@
 
 .c-left{
     padding: 50px;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,31 +26,25 @@
     height: 20px;
     line-height: 0;
 }
-.c-info-item{
-   display: flex;
+.c-desc{
    margin: 50px 0px;
-   font-weight: 300;
-   width: 70%;
-}
-.c-icon{
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
+   width: 50%;
+   line-height: 0;
+   font-weight: 200;
 }
 
-.p-desc{
-    font-weight: 200;
-}
 .c-form{
     background-color: rgb(125, 54, 238);
     width: 50%;
     height: 100%;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;
 
 }
 form{
     width: 100%;
-    height: 60vh;
+    height: 75vh;
     margin-top: 20px;
     border-radius: 30px;
     background-color: rgb(125, 54, 238);
@@ -60,6 +54,7 @@ form{
 
 }
 input{
+  
     width: 50%;
     height: 50px;
     border: none;
