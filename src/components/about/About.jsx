@@ -14,15 +14,12 @@ const About = ({id}) => {
         </div>
         <div className='a-right'>
           <h1 className='a-title'>Acerca de mi</h1>
-          <p className='a-sub'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritt asperior</p>
-
+          
           <p className='a-desc'>
-            Lorem ipsum dolor sit amet consectetur 
-            adipisicing elit. Temporibus totam, 
-            dignissimos odit dolores excepturi corrupti 
-            iusto quibusdam laborum natus omnis expedita 
-            cum repudiandae aut molestias?
-            Corrupti id quod optio distinctio.
+          Estudiante FullStack de EducaMás con amplios conocimientos en front-end, 
+          desarrollados a través de proyectos propios. Busco desarrollar mi carrera, contribuyendo con mis habilidades 
+          en JavaScript, React, PHP y MySql para lograr diseños finales que satisfagan las necesidades 
+          y preferencias de los clientes.
           </p>
 
           <button className='a-button'>Más acerca de mi  </button>

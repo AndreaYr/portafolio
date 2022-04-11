@@ -3,6 +3,7 @@ import './curriculum.css';
 import Photo from '../../assets/photo.jpg';
 import CurriculumList from '../curriculumList/CurriculumList';
 import { habilidades } from '../../dataHabilidades';
+import darkMode from '../toggle/Toggle';
 
 const Curriculum = () => {
   return (
@@ -16,12 +17,14 @@ const Curriculum = () => {
                 <h1 className='curr-title'>Andrea Reyes</h1>
 
                 <p className='curr-desc'>
-                    Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Temporibus totam, 
-                    dignissimos odit dolores excepturi corrupti 
-                    iusto quibusdam laborum natus omnis expedita 
-                    cum repudiandae aut molestias?
-                    Corrupti id quod optio distinctio.
+                Estudiante FullStack de EducaMás con amplios conocimientos en front-end, 
+                desarrollados a través de proyectos propios. Busco desarrollar mi carrera, contribuyendo con mis habilidades 
+                en JavaScript, React, PHP y MySql para lograr diseños finales que satisfagan las necesidades 
+                y preferencias de los clientes.<br/><br/>
+
+                Mi objetivo principal es desarrollarme profesionalmente y evolucionar en el sector de la tecnólogia,
+                de modo que busco oportunidades que me permitan hacerlo, al tiempo que trataré de alinearme 
+                completamente con los objetivos de la empresa.
                 </p>
 
                 <p className='curr-sub'>yuriramirez5800@gmail.com</p>
