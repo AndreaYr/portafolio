@@ -2,7 +2,7 @@ import React from 'react';
 import './about.css';
 import Photo from '../../assets/photo.jpg';
 
-const About = () => {
+const About = ({id}) => {
   return (
     <div className='a'>
       <div className='a-container'>

@@ -15,7 +15,7 @@ const Intro = () => {
                   <div className='i-title-item '>Web Developer</div>
                   <div className='i-title-item '>React</div>
                   <div className='i-title-item '>JavaScript</div>
-                  <div className='i-title-item '>PhP</div>
+                  <div className='i-title-item '>PHP</div>
                   <div className='i-title-item '>MongoDB</div>
                     
                 </div>

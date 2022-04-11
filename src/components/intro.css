@@ -13,18 +13,19 @@
 .i-presentacion{
     display: flex;
     flex-direction: column;
-    column-gap: 1px;
     align-items: center;
     justify-content: center;
 }
 .i-intro{
+    height: 5px;
     font-size: 60px;
-    padding: none;
+
 }
 
 .i-profesion{
     font-size: 40px;
-    padding: none;
+    height: 50px;
+
 
 }
 
@@ -42,11 +43,10 @@
 }
 
 .i-left-wrapper{
-    padding: 50px;
-    height: 60%;
+    padding: 100px;
+    column-gap: 1px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .i-title-wrapper{
